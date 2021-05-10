@@ -853,12 +853,12 @@ header.navbar-shrink .et_pb_menu--with-logo .et_pb_menu__menu>nav>ul>li>a{
     padding-bottom: 0.2em;
 }
 .entry-content ul li::before{
-    color: #ff4d00;
-    content: '\45';
+    color: #61503d;
+    content: '\4e';
     font-family: 'etModules';
-    font-size: 20px;
+    font-size: 18px;
     position: absolute;
-    left: -5px;
+    left: 3px;
     font-weight: 700;
 }
 .et_pb_row__equal {
@@ -1338,6 +1338,22 @@ body:not(.home) .et_pb_section__hero .et_pb_text__content {
     color: #83d8ff;
 }
 
+body.page-id-346 .et_pb_section__hero .et_pb_text__content {
+    color: #2bbeb9;
+}
+
+body.page-id-348 .et_pb_section__hero .et_pb_text__content {
+    color: #ee1b6a;
+}
+
+body.page-id-350 .et_pb_section__hero .et_pb_text__content {
+    color: #e52727;
+}
+
+body.page-id-362 .et_pb_section__hero .et_pb_text__content {
+    color: #ffeb61;
+}
+
 body.page-id-329 .et_pb_section_1 h2, 
 body.page-id-333 .et_pb_section_1 h2 { 
     color: #8e4eb7;
@@ -1347,13 +1363,30 @@ body.page-id-342 .et_pb_section_1 h2 {
     color: #496ad6;
 }
 
-body.page-id-342 .et_pb_section_1 h2 { 
+body.page-id-362 .et_pb_section_1 h2 { 
+    color: #f41137;
+
+body.page-id-350 .et_pb_section_1 h2 { 
+    color: #f5102b;
+}
+
+body.page-id-356 .et_pb_section_1 h2 { 
+    color: #c80686;
+}
+
+body.page-id-348 .et_pb_section_1 h2, 
+body.page-id-346 .et_pb_section_1 h2 { 
+    color: #e68cde;
 }
 
 body.page__vision-mission .et_pb_section__hero .et_pb_text__content {
     color: #49f3ed;
 }
 
+body.page-id-362 #main-content,
+body.page-id-356 #main-content,
+body.page-id-350 #main-content,
+body.page-id-346 #main-content,
 body.page-id-329 #main-content,
 body.page-id-387 #main-content, 
 body.page-id-342 #main-content, 
@@ -1362,6 +1395,15 @@ body.page-id-333 #main-content {
     background: url('images/body-background_banksia-unted.png') no-repeat scroll 0 750px transparent;
 }
 
+body.page-id-342 .et_pb_text__content ul {
+    margin-top: 1em;
+}
+
+body.page-id-350 .et_pb_section_1 h2 {
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+}
 
 /*=====================================*/
 /*             #FOOTER                 */
